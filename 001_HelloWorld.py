@@ -1,0 +1,6 @@
+print("Hello World!!")
+print(20+20)
+print("20+20")
+print("Welcome ","Vikas")
+print(20>10)
+print(20<10)

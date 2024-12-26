@@ -60,4 +60,4 @@ for i in li:
 print("New list with odd numbers: ",newli)
 
 li.extend(li2)
-print("After adding list1 and list2: ",li)
+print("After extending list1 with list2: ",li)

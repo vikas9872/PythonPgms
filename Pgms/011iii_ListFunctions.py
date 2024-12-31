@@ -61,3 +61,28 @@ print("New list with odd numbers: ",newli)
 
 li.extend(li2)
 print("After extending list1 with list2: ",li)
+
+# ------------------------------------------ Extra Functions ----------------------------------------------------------------------------
+
+newList=[1,2,3]
+nLi=[1,5,3,7,8,6]
+# count: Number of particular element
+print("Number of 1s in the list: ",newList.count(1))
+
+# max
+print("Maximum element present in the list: ",max(newList))
+
+# min
+print("Minimum element present in the list: ",min(newList))
+
+# reverse
+newList.reverse()
+print("Reversed list: ",newList.reverse)
+
+# index
+idx=newList.index(2)
+print("First index of 2: ",idx)
+
+# sort
+nLi.sort()
+print("Sorting the list: ",nLi)

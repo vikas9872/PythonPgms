@@ -80,8 +80,8 @@ newList.reverse()
 print("Reversed list: ",newList.reverse)
 
 # index
-idx=newList.index(2)
-print("First index of 2: ",idx)
+idx=nLi.index(8)
+print("First index of 8: ",idx)
 
 # sort
 nLi.sort()

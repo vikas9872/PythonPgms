@@ -24,3 +24,7 @@ print("Slicing list from 2 to 4: ",l[2:5])
 
 # Increment in list
 print("List after 2 increment: ",l[0::2])
+
+# list as constructor
+l1=(l)
+print("List created using list constructor: ",l1)

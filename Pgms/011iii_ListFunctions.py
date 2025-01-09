@@ -5,8 +5,8 @@
     3. remove: removes the corresponding element Eg: list_name.remeove(element_that_has_to_be_removed)
     4. clear: clears complete list
 """
-# l=[1, 2, 3, 4, 5, 9, 7, 6, 8]
-# newl=[]
+l=[1, 2, 3, 4, 5, 9, 7, 6, 8]
+newl=[]
 
 # DELETE FUNCTION
 # del l[4] # element: 5 is deleted which is at index=4
@@ -23,11 +23,11 @@
 # print()
 
 # REMEOVE FUNCTION
-# l.remove(5)
-# for a in l:
-#     newl.append(a)
-# print("List after removing the element 5: ",newl)
-# print()
+l.remove(7)
+for a in l:
+    newl.append(a)
+print("List after removing the element 5: ",newl)
+print()
 
 # CLEAR FUNCTION
 # l.clear()
@@ -66,6 +66,7 @@ print("After extending list1 with list2: ",li)
 
 newList=[1,2,3]
 nLi=[1,5,3,7,8,6]
+li3=[]
 # count: Number of particular element
 print("Number of 1s in the list: ",newList.count(1))
 
@@ -86,3 +87,10 @@ print("First index of 8: ",idx)
 # sort
 nLi.sort()
 print("Sorting the list: ",nLi)
+# sort in descending order
+nLi.sort(reverse=True)
+print("Sorted list in reversed order: ",nLi)
+
+# copy
+li3=nLi.copy()
+print("Copy list: ",li3)
